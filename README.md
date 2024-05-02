@@ -58,7 +58,7 @@ Code
 5. Download pretrained weights:
 
    
-   1. Download pre-trained weights from [here](https://drive.google.com/file/d/1sCCrM2xi5ofQwNAigMGwJSm1r7pU4jht/view?usp=sharing).
+   1. Download pre-trained weights from [here](https://drive.google.com/drive/folders/151pmZSRl_bEu5eJgu1V9SdjE-x7FtACz?usp=sharing).
 
 #### Evaluation
 
