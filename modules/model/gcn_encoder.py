@@ -206,7 +206,7 @@ class Graph_JP_estimator(BaseModel):
         
         x_uwb = torch.stack([_[:,-config.INPUT_DATA_SIZE["vuwb"]:] for _ in list(x)]).view(bz,-1,self.node_number,self.node_number)
         
-        leaf_joint_pos = self._forward(x_imu,x_uwb).reshape(bz, -1, self.node_number * self.output_dim)
+        leaf_joint_pos = self._forward(x_imu,1 / (1 + x_uwb)).reshape(bz, -1, self.node_number * self.output_dim)
         
         leaf_joint_pos = leaf_joint_pos[:,:,self.output_dim:]
         
