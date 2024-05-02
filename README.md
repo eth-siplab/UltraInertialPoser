@@ -5,7 +5,9 @@
 [Sensing, Interaction & Perception Lab](https://siplab.org), Department of Computer Science, ETH Zürich, Switzerland <br/>
 
 
-
+<p align="center">
+<img src="figs/demo.gif" width="1200">
+</p>
 
 ___________
 
