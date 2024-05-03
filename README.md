@@ -98,13 +98,12 @@ Citation
 ----------
 If you find our paper or codes useful, please cite our work:
 
-    @inproceedings{armani2024ultra,
-      author = {Armani, Rayan and Qian, Changlin and Jiang, Jiaxi and Holz, Christian},
-      title = {Ultra Inertial Poser: Scalable Motion Capture and Tracking from Sparse Inertial Sensors and Ultra-Wideband Ranging},
-      publisher = {Association for Computing Machinery},
-      booktitle={ACM SIGGRAPH 2024 Conference Proceedings},
-      year = {2024}
-    }
+    @article{armani2024ultra,
+       title={Ultra Inertial Poser: Scalable Motion Capture and Tracking from Sparse Inertial Sensors and Ultra-Wideband Ranging},
+       author={Armani, Rayan and Qian, Changlin and Jiang, Jiaxi and Holz, Christian},
+       journal={arXiv preprint arXiv:2404.19541},
+       year={2024}
+     }
 
 
 License and Acknowledgement
