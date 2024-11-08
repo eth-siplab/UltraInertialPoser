@@ -92,7 +92,7 @@ We use [aitviewer](https://github.com/eth-ait/aitviewer) to visualize our result
 
 Dataset
 ----------
-Please stay tuned for the release of our UIP-DB dataset!
+Please download our UIP-DB dataset from [Google Drive](https://drive.google.com/drive/folders/1Kk8E6OH-QjBsfQaVww1MkLM2ycQ6gl8m?usp=drive_link).
 
 Citation
 ----------
