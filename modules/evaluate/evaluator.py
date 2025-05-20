@@ -117,9 +117,9 @@ def evaluate_model(net, data_dir, sequence_ids=None, flush_cache=False, pose_eva
 			plt.show()
 		output_eval_res["trans_error"] = tran_errors
 		output_eval_res["trans_error_2m"] = torch.tensor(tran_errors[2]).mean().item()
-		output_eval_res["trans_error_5m"] = torch.tensor(tran_errors[5]).mean().item()	
+		output_eval_res["trans_error_5m"] = torch.tensor(tran_errors[5]).mean().item()	  # bug fixed, as tran_errors is a dictionary 
 		print('%s: %.4f' % ("trans error at 2 m", torch.tensor(tran_errors[2]).mean().item()))
-		print('%s: %.4f' % ("trans error at 5 m", torch.tensor(tran_errors[5]).mean().item()))
+		print('%s: %.4f' % ("trans error at 5 m", torch.tensor(tran_errors[5]).mean().item()))		
 
 	return output_eval_res
  
