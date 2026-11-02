@@ -103,7 +103,7 @@ class RNN(torch.nn.Module):
         self.dropout = torch.nn.Dropout(dropout) if dropout > 0 else torch.nn.Identity()
 
         if load_weight_file and os.path.exists(load_weight_file):
-            self.load_state_dict(torch.load(load_weight_file))
+            self.load_state_dict(torch.load(load_weight_file, weights_only=True))
             self.eval()
 
     def forward(self, x, init=None):
@@ -151,7 +151,7 @@ class RNNWithInit(RNN):
         )
 
         if load_weight_file and os.path.exists(load_weight_file):
-            self.load_state_dict(torch.load(load_weight_file))
+            self.load_state_dict(torch.load(load_weight_file, weights_only=True))
             self.eval()
 
     def forward(self, x, _=None):
